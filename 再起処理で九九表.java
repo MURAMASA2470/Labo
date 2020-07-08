@@ -7,7 +7,7 @@ public class Sample {
 	
 	static int Multiply(int from, int to, int current) {
 		System.out.print(String.format("%4s", current));
-		return current < to ? Multiply(from, to, current + from) : from;
+		return current < to ? Multiply(from, to, current + from) : -1;
 	}
 	
 	static int TimesTables(int row, int col, int current) {
