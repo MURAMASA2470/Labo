@@ -70,7 +70,7 @@ public class Main {
 		
 		// 長さが4文字以下の文字列
 		// 期待値: { "apple", "kiwi", "melon", "peach" }
-		strSrm.filter(s -> s.length() <= 5).collect(Collectors.toList()).forEach(System.out::println);;
+		strSrm.filter(s -> s.length() <= 5).collect(Collectors.toList()).forEach(System.out::println);
 		
 	}
 
