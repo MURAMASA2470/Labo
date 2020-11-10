@@ -13,6 +13,8 @@ Sub WorkbookXXX()
         End If
     End With
 
+' ディレクトリないのファイルを取得
+
   If Dir(filePath) = "" Then
     MsgBox filePath & vbCrLf & "は存在していません", vbExclamation
     Exit Sub
